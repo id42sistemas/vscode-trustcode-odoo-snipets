@@ -3,7 +3,7 @@
     "displayName": "Trustcode Odoo Snippets",
     "description": "Python and XML code snipets used by Trustcode, gold partner of Odoo in Brazil.",
     "version": "1.0.0",
-    "publisher": "Fabio Luna",
+    "publisher": "FabioLuna",
     "engines": {
         "vscode": "^1.0.0"
     },
