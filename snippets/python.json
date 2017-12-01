@@ -26,7 +26,7 @@
     },
     "Many2one Field": {
       "prefix": "oo_field_many2one",
-      "body": "${10:new_field_id} = fields.Many2one(\n\tstring=\"${20:Field name}\",\n\tcomodel_name=\"${30:res.partner}\",\n\tdomain=\"[('${40:field}', '${41:=}', ${42:other})]\",\n\tcontext={\"${50:key}\": ${51:\"value\"}\\},\n\tondelete=\"${60:set null}\",\n\thelp=\"${70:Explain your field}.\",\n})$80"
+      "body": "${10:new_field_id} = fields.Many2one(\n\tstring=\"${20:Field name}\",\n\tcomodel_name=\"${30:res.partner}\",\n\tdomain=\"[('${40:field}', '${41:=}', ${42:other})]\",\n\tcontext={\"${50:key}\": ${51:\"value\"}\\},\n\tondelete=\"${60:set null}\",\n\thelp=\"${70:Explain your field}.\",\n)$80"
     },
     "One2many Field": {
       "prefix": "oo_field_one2many",
@@ -34,7 +34,7 @@
     },
     "Many2many Field": {
       "prefix": "oo_field_many2many",
-      "body": "${10:new_field_ids} = fields.Many2many(\n\tstring=\"${20:Field name}\",\n\tcomodel_name=\"${30:res.partner}\",\n\trelation=\"${40:relation_table_name}\",\n\tcolumn1=\"${50:column_this}\",\n\tcolumn2=\"${60:column_other}\",\n\tdomain=\"[('${70:field}', '${71:=}', ${72:other})]\",\n\tcontext={\"${80:key}\": ${81:\"value\"}\\},\n\thelp=\"${90:Explain your field}.\",\n})$100"
+      "body": "${10:new_field_ids} = fields.Many2many(\n\tstring=\"${20:Field name}\",\n\tcomodel_name=\"${30:res.partner}\",\n\trelation=\"${40:relation_table_name}\",\n\tcolumn1=\"${50:column_this}\",\n\tcolumn2=\"${60:column_other}\",\n\tdomain=\"[('${70:field}', '${71:=}', ${72:other})]\",\n\tcontext={\"${80:key}\": ${81:\"value\"}\\},\n\thelp=\"${90:Explain your field}.\",\n)$100"
     },
     "Boolean Field": {
       "prefix": "oo_field_boolean",
