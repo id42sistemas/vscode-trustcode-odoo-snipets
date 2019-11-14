@@ -1,9 +1,9 @@
 {
-    "name": "trustcode-odoo-snippets",
-    "displayName": "Trustcode Odoo Snippets",
-    "description": "Python and XML code snipets used by Trustcode, gold partner of Odoo in Brazil.",
+    "name": "id42-odoo-snippets",
+    "displayName": "ID42 Sistemas Odoo Snippets",
+    "description": "Python and XML code snipets used by ID42 Sistemas.",
     "version": "1.0.1",
-    "publisher": "FabioLuna",
+    "publisher": "MarcelSavegnago",
     "engines": {
         "vscode": "^1.0.0"
     },
@@ -19,5 +19,5 @@
             "path": "./snippets/xml.json"
         }]
     },
-    "icon": "images/trustcode.png"
+    "icon": "images/id42-logo.png"
 }

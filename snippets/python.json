@@ -2,7 +2,7 @@
   ".source.python": {
     "Create New Odoo Object": {
       "prefix": "oo_new_module",
-      "body": "# -*- encoding: utf-8 -*-\n# © 2017 Mackilem Van der Laan, Trustcode\n# © 2017 Danimar Ribeiro, Trustcode\n# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).\n\nfrom odoo import api, fields, models\n\n\nclass ${10:NewModule}(models.Model):\n\t_name = '${20:module.name}'\n\t_rec_name = '${30:module.rec_name}' # optional\n\t_description = '${40:Module description}'\n\t_order = '${50:field1}, ${60:field2}, ' # optional\n\n\tname = fields.Char()$70"
+      "body": "# -*- encoding: utf-8 -*-\n# © 2019 Marcel Savegnago, ID42 Sistemas\n# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).\n\nfrom odoo import api, fields, models\n\n\nclass ${10:NewModule}(models.Model):\n\t_name = '${20:module.name}'\n\t_rec_name = '${30:module.rec_name}' # optional\n\t_description = '${40:Module description}'\n\t_order = '${50:field1}, ${60:field2}, ' # optional\n\n\tname = fields.Char()$70"
     },
     "Inherit/Extend Existing Odoo Object": {
       "prefix": "oo_object_inherit",
